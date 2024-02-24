@@ -1,0 +1,36 @@
+@import url("../../styles.css");
+.owe {
+  font-size: inherit;
+  color: rgb(234, 122, 122);
+  vertical-align: middle;
+}
+.get {
+  font-size: inherit;
+  color: rgb(135, 237, 135);
+  vertical-align: middle;
+}
+
+.friends-list--items {
+  list-style: none;
+  color: #c6c4c4;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.friends-list--items img {
+  height: 4rem;
+  width: 4rem;
+}
+.friends-list--items--amount {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  justify-content: center;
+}
+.friends-list--items--amount span {
+  display: inline-block;
+}

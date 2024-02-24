@@ -1,9 +1,11 @@
 @import url("../../styles.css");
 .owe {
+  font-size: inherit;
   color: rgb(234, 122, 122);
   vertical-align: middle;
 }
 .get {
+  font-size: inherit;
   color: rgb(135, 237, 135);
   vertical-align: middle;
 }
@@ -12,4 +14,18 @@
   font-size: inherit;
   color: #fff;
   vertical-align: middle;
+}
+.width100,
+.width100 .heading {
+  display: block;
+  width: 100vw;
+}
+.friends-list--container {
+  display: flex;
+  width: 100vw;
+  padding: 0;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
 }

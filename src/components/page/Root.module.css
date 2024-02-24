@@ -1,0 +1,16 @@
+.add-expense {
+  position: absolute;
+  z-index: 999;
+  bottom: 12vh;
+  right: 10px;
+  box-shadow: none;
+  background-color: rgb(60, 195, 141);
+  line-height: 1.5rem;
+  padding: 0.5rem;
+  border-color: rbga(0, 0, 0, 0);
+  border-radius: 20px;
+}
+.add-expense span {
+  vertical-align: middle;
+  color: #fff;
+}
