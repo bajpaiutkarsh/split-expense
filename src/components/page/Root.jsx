@@ -11,7 +11,9 @@ const Root = () => {
   return (
     <>
       {header}
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
       <Footer></Footer>
       <button className={styles["add-expense"]}>
         <span className="material-symbols-outlined">receipt</span>

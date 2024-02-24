@@ -1,5 +1,5 @@
 .add-expense {
-  position: absolute;
+  position: fixed;
   z-index: 999;
   bottom: 12vh;
   right: 10px;
@@ -9,6 +9,12 @@
   padding: 0.5rem;
   border-color: rbga(0, 0, 0, 0);
   border-radius: 20px;
+}
+main {
+  position: relative;
+  top: 10vh;
+  height: 80vh;
+  overflow: scroll;
 }
 .add-expense span {
   vertical-align: middle;

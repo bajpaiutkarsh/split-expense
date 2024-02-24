@@ -2,7 +2,9 @@
   height: 10vh;
   background-color: #333;
   border-bottom: 1px solid #282727;
+  position: fixed;
   display: flex;
+  z-index: 2;
   width: 100vw;
   margin: auto;
 }
