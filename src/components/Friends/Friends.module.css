@@ -1,0 +1,15 @@
+@import url("../../styles.css");
+.owe {
+  color: rgb(234, 122, 122);
+  vertical-align: middle;
+}
+.get {
+  color: rgb(135, 237, 135);
+  vertical-align: middle;
+}
+
+.middle {
+  font-size: inherit;
+  color: #fff;
+  vertical-align: middle;
+}

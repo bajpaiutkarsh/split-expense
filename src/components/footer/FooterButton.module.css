@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+  color: #c6c4c4;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.active {
+  color: rgb(60, 195, 141);
+}
